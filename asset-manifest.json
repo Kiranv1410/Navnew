@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Kiranv1410/Navnew.git/static/css/main.6a8f55bc.css",
+    "main.js": "/Kiranv1410/Navnew.git/static/js/main.55751fe0.js",
+    "index.html": "/Kiranv1410/Navnew.git/index.html",
+    "main.6a8f55bc.css.map": "/Kiranv1410/Navnew.git/static/css/main.6a8f55bc.css.map",
+    "main.55751fe0.js.map": "/Kiranv1410/Navnew.git/static/js/main.55751fe0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6a8f55bc.css",
+    "static/js/main.55751fe0.js"
+  ]
+}
