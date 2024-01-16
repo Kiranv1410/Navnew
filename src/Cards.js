@@ -1,14 +1,16 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
+import './Cards.css'
 // import './App.css';
 
 
 function KitchenSinkExample() {
   return (
     <>
-    <div style={{display:'flex',margin:'20px'}}>
-     <div className='card' style={{margin:'10px'}}>
+    <div className='box' style={{display:'flex',margin:'20px', display: 'grid',
+    gridTemplateColumns:'repeat(2,2fr)',alignItems: 'center'}}>
+     <div className='card' style={{margin:'10px',width:'45%'}}>
      <Card style={{ width: '18rem',background: 'rgba(0,0,0,0.8)',color:'white' }}>
       <Card.Img variant="top" src="https://www.thomascook.in/images/site-banners/small-tile-dubai.jpg" />
       <Card.Body>
@@ -26,7 +28,7 @@ explored with A2Z India's Dubai tour packages.
      
     </Card>
 </div>
-<div className='card' style={{margin:'10px'}}>
+<div className='card' style={{margin:'10px',width:'45%'}}>
      <Card style={{ width: '18rem',background: 'rgba(0,0,0,0.8)',color:'white' }}>
       <Card.Img variant="top" src="https://www.thomascook.in/images/site-banners/switzerland.jpg" />
       <Card.Body>
@@ -42,7 +44,7 @@ explored with A2Z India's Dubai tour packages.
       </ListGroup>
     </Card>
 </div>
-<div style={{margin:'10px'}}>
+<div style={{margin:'10px',width:'50%'}}>
      <Card style={{ width: '18rem',background: 'rgba(0,0,0,0.8)',color:'white' }}>
       <Card.Img variant="top" src="https://www.thomascook.in/images/site-banners/Paris.jpg" />
       <Card.Body>
@@ -60,7 +62,7 @@ in this city of love that you need to explore Paris City.
       
     </Card>
 </div>
-<div style={{margin:'10px'}}>
+<div style={{margin:'10px',width:'50%'}}>
      <Card style={{ width: '18rem',background: 'rgba(0,0,0,0.8)',color:'white' }}>
       <Card.Img variant="top" src="https://www.thomascook.in/images/site-banners/mauritius.jpg" />
       <Card.Body>

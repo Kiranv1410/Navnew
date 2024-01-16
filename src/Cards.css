@@ -1,0 +1,19 @@
+/* @media screen and(min-width:150px) {
+    .card{
+        height: 100vh;
+        display: grid;
+        grid-template-columns: repeat(2,2fr);
+    }
+}     */
+
+@media screen and(max-width:500px ) {
+ .box{
+    display: grid;
+        grid-template-columns: repeat(3,2fr);
+ }   
+} 
+
+.box{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+}
